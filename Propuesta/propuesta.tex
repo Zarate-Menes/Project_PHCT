@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+
+\usepackage[left=25mm, right=25mm, top=25mm, bottom=25mm, headheight=25mm]{geometry}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{subfig} % Poder colocar más de una imagen en una {Figura}
+\usepackage[figurename=Imagen]{caption} % Cambiar la descripción de la Image 
+\usepackage[utf8]{inputenc} % Idioma español
+\usepackage[spanish]{babel} % Idioma español
+
+% Para poder ajustar los colores en las referencias que se hagan
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor = black,
+    citecolor = blue,
+    urlcolor = blue
+}
+
+% Dar formato a las páginas y colocar el \rfoot{De forma que nos interese}
+\usepackage{parskip}
+\usepackage{lastpage}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{}
+\rfoot{Página \thepage\ de \pageref{LastPage}}
+\rhead{}
+\lhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+\textcolor{blue}{OBJETIVOS}
+\par\vspace{1.5cm}
+\textcolor{blue}{MISIÓN}
+\par\vspace{1.5cm}
+\textcolor{blue}{INTRODUCCIÓN}
+\par\vspace{1.5cm}
+\textcolor{blue}{PROPUESTA}
+\par\vspace{1.5cm}
+\textcolor{blue}{REFERENCIAS}
+
+
+
+
+
+
+\end{document}
